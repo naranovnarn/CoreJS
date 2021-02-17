@@ -1,0 +1,67 @@
+body {
+  font-family: Roboto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 800px;
+}
+
+.container input {
+  width: 500px;
+  height: 61px;
+  border-radius: 3px;
+  padding: 5px 13px;
+  font-size: 48px;
+}
+
+.container .autocompleteBox{
+  align-self: stretch;
+  height: 240px;
+}
+
+.container .autocompleteBox-item{
+  align-self: stretch;
+  height: 40px;
+  border: 1px solid black;
+  border-top: none;
+  font-size: 30px;
+}
+
+.container .autocompleteBox-item:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.container .resultBox {
+  align-self: stretch;
+
+}
+
+.container .result-item {
+  margin-bottom: 8px;
+  border: 1px solid black;
+  position: relative;
+  background-color: #E27BEB;
+}
+
+.container i {
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top:65px;
+}
+
+.container .result-item p {
+  padding: 5px 10px;
+}
+
+
