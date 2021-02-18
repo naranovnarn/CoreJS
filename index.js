@@ -8,7 +8,7 @@ const resultBox = document.querySelector('.resultBox');
 autocompleteBox.classList.add('autocompleteBox');
 resultBox.classList.add('resultBox');
 
-let searchRepositoriesDelay = debounce(searchRepositories, 100);
+let searchRepositoriesDelay = debounce(searchRepositories, 1200);
 
 input.addEventListener('input', searchRepositoriesDelay);
 
@@ -101,35 +101,6 @@ function renderResultList(list) {
 
   })
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 function debounce(fn, ms) {
